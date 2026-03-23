@@ -2073,7 +2073,7 @@ VTDeleted
 \par Value 	
 4 	
 \par Description 
-This volume has been deleted (via AFSVolDeleteVol¬ume() ), and thus should not
+This volume has been deleted (via AFSVolDeleteVolï¿½ume() ), and thus should not
 be manipulated. 
 
 	\subsubsection sec5-2-3-2 Section 5.2.3.2: iflags 
@@ -2083,7 +2083,7 @@ These constants represent the desired attachment mode for a volume at the start
 of a transaction. Once attached, the volume header is marked to reflect this
 mode. Attachment modes are useful in salvaging partitions, as they indicate
 whether the operations being performed on individual volumes at the time the
-crash occured could have introduced inconsistencies in their metadata
+crash occurred could have introduced inconsistencies in their metadata
 descriptors. If a volume was attached in a read-only fashion, then the salvager
 may decide (taking other factors into consideration) that the volume doesn't
 need attention as a result of the crash. 
@@ -2341,7 +2341,7 @@ SIZE
 \par Value 	
 1,024 	
 \par Description 
-Not used internally by the Volume Server; used as a maxi¬mum size for internal
+Not used internally by the Volume Server; used as a maxiï¿½mum size for internal
 character arrays. 
 
 \par Name 	
